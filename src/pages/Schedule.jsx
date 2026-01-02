@@ -11,7 +11,7 @@ function Schedule() {
   useViewPortMetaTag(1200);
   const scheduleData = useScheduleData();
   const tableRef = useRef(null);
-  const [showPopup, setShowPopup] = useState(true);
+  const [showPopup, setShowPopup] = useState(false);
 
   const downloadTableAsImage = () => {
     if (tableRef.current) {
